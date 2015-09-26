@@ -1,0 +1,49 @@
+{
+  "apps":[
+    {
+      "appId":"battle-grid",
+      "appName":"Battle Grid",
+      "description":"<p>The most epic tabletop game ever.</p>"
+      "images": {
+        "icon":"icon.png"
+      },
+      "currentVersionNumber":"1.0",
+      "packageExecutables":{
+        "OSX":"game.app",
+        "Windows":"game.exe"
+      }
+    }
+  ],
+
+  "config":{
+    "mixpanelToken":"32eb15492250d3da45f6cedfeccc3717",
+    "appManager": {
+      "command":"python",
+      "arguments":"manager.py",
+      "directory":{
+          "OSX":"/appManager",
+          "Windows":"\\appmanager\\"
+      }
+    },
+    "appPackagePath":"packageStorage/"
+  },
+
+  "releases":[
+    {
+      "appId":"battle-grid",
+      "appName":"Battle Grid",
+      "versionNotes":"<p>Less bugs, more awesome.</p>",
+      "versionNumber":"1.0"
+    }
+  ],
+
+  "devices": [
+    {
+      "deviceName":"bob",
+      "firmwareVersionNumbers":[
+        "0.0.1","0.0.1","0.0.1","0.0.1"
+      ],
+
+    }
+  ]
+}
