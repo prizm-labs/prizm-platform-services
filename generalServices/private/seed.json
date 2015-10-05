@@ -3,15 +3,121 @@
     {
       "appId":"battle-grid",
       "appName":"Battle Grid",
-      "description":"<p>The most epic tabletop game ever.</p>"
+      "description":"<p>The most epic tabletop game ever.</p>",
       "images": {
-        "icon":"icon.png"
+        "icon":"http://aws.com/icon.png"
       },
       "currentVersionNumber":"1.0",
       "packageExecutables":{
         "OSX":"game.app",
         "Windows":"game.exe"
-      }
+      },
+      "minPlayers":2,
+      "maxPlayers":2
+    },
+    {
+      "appId":"plants-vs-zombies",
+      "appName":"Plants Vs Zombies",
+      "description":"<p>Plants come to life.</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "currentVersionNumber":"1.0",
+      "packageExecutables":{
+        "OSX":"game.app",
+        "Windows":"game.exe"
+      },
+      "minPlayers":1,
+      "maxPlayers":null
+    },
+    {
+      "appId":"pokemon-capture",
+      "appName":"Pokemon Vs Zombies",
+      "description":"<p>Save Pikachu by cpaturing zombies with your pokeballs!</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "currentVersionNumber":"1.0",
+      "packageExecutables":{
+        "OSX":"game.app",
+        "Windows":"game.exe"
+      },
+      "minPlayers":1,
+      "maxPlayers":2
+    },
+    {
+      "appId":"simon",
+      "appName":"Simon Says",
+      "description":"<p>Simon says \"Battle royale!\"</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "currentVersionNumber":"1.0",
+      "packageExecutables":{
+        "OSX":"game.app",
+        "Windows":"game.exe"
+      },
+      "minPlayers":4,
+      "maxPlayers":4
+    },
+    {
+      "appId":"genesis",
+      "appName":"Genesis",
+      "description":"<p>The classic story of creation.</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "currentVersionNumber":"1.0",
+      "packageExecutables":{
+        "OSX":"game.app",
+        "Windows":"game.exe"
+      },
+      "minPlayers":1,
+      "maxPlayers":null
+    },
+
+  ],
+
+  "channels": [
+    {
+      "name":"Family Channel",
+      "description":"<p>The classic story of creation.</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "content":[
+        "simon","pokemon-vs-zombies","plants-vs-zombies"
+      ]
+    },
+    {
+      "name":"Board Games Channel",
+      "description":"<p>The classic story of creation.</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "content":[
+        "monopoly"
+      ]
+    },
+    {
+      "name":"Storytime Channel",
+      "description":"<p>The classic story of creation.</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "content":[
+        "genesis"
+      ]
+    },
+    {
+      "name":"Hacker Channel",
+      "description":"<p>The classic story of creation.</p>",
+      "images": {
+        "icon":"http://aws.com/icon.png"
+      },
+      "content":[
+        "battle-grid","genesis"
+      ]
     }
   ],
 
@@ -42,8 +148,7 @@
       "deviceName":"bob",
       "firmwareVersionNumbers":[
         "0.0.1","0.0.1","0.0.1","0.0.1"
-      ],
-
+      ]
     }
   ]
 }
