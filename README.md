@@ -18,3 +18,9 @@ mobile app or website will launch companion app through custom URL scheme with q
 containing user session token.
 
 The companion app will exchange session token for full user information, i.e. userID
+
+
+App key
+s18vv906j28753i
+App secret
+pnoyg0doihxkt4y

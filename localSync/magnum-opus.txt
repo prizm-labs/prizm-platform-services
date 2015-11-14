@@ -1,0 +1,7 @@
+2 GHz Intel Core i7
+RAM	16 GB SO-DIMM DDR3
+Hard Drive	1 TB
+Graphics Coprocessor	Radeon HD 6490M dedicated GDDR5
+Chipset Brand	AMD
+Card Description	AMD Radeon HD 6490M 256MB dedicated GDDR5, Intel HD Graphics 3000 graphics with 512MB
+Graphics Card Ram Size	512 MB, 256 MB
